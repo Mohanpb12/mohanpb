@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    background-color: rgb(255, 29, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 23px;
+    font-size: xx-large;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(255, 240, 29);
+}
+.rightnav{
+    background-color: rgb(255, 16, 16);
+    width: 50%;
+    text-align:right;
+}
+
+#search{
+    padding: 5px;
+    fonr-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('i.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondhalf{
+    width: 30%;
+
+}
+
+.secondhalf img{
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+
+.freedom img{
+    width: 330px;
+}
+
+.text-big{
+    font-size: 30px;
+}
+
+.text-small{
+
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.secleft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
